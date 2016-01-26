@@ -1,0 +1,4 @@
+package: github.com/xissy/icu
+import:
+- package: github.com/saintfish/chardet
+- package: gopkg.in/alecthomas/kingpin.v2

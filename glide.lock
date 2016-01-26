@@ -1,0 +1,12 @@
+hash: d828619360a7c6f7ea11346f94980aa63ebcc764da697a514d1b2c1b0a1011e9
+updated: 2016-01-25T22:01:41.752925193-08:00
+imports:
+- name: github.com/alecthomas/template
+  version: 14fd436dd20c3cc65242a9f396b61bfc8a3926fc
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/saintfish/chardet
+  version: 3af4cd4741ca4f3eb0c407c034571a6fb0ea529c
+- name: gopkg.in/alecthomas/kingpin.v2
+  version: 8852570bd3865e9c4d4cb7cf5001c4295b07cad5
+devImports: []
