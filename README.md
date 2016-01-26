@@ -15,3 +15,8 @@ Flags:
 Args:
   [<file>]  Input file name, or you can use pipe or redirection.
 ```
+
+## with iconv
+```
+iconv -f $(icu a.smi) -t utf8 a.smi > a_utf8.smi
+```
