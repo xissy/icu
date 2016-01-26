@@ -11,14 +11,14 @@ import (
 
 var (
   app = kingpin.New("icu", "Detect whatsoever charset")
-  bufferSize = app.Flag("buffer", "Buffer size of the file.").Default("100000").Int()
-  forText = app.Flag("text", "Enable text more, default is HTML mode.").Bool()
+  bufferSize = app.Flag("buffer", "Buffer size of the file.").Short('b').Default("100000").Int()
+  forText = app.Flag("text", "Enable text more, default is HTML mode.").Short('t').Bool()
   fileName = app.Arg("file", "Input file name, or you can use pipe or redirection.").String()
 )
 
 func main() {
-  app.Parse(os.Args[1:])
   app.Version("0.1.0")
+  app.Parse(os.Args[1:])
 
   inputFile := os.Stdin
   err := errors.New("")
